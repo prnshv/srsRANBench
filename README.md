@@ -6,7 +6,7 @@
 
 The benchmark assesses LLMs' ability to generate syntactically and semantically correct code, as well as their comprehension of the srsRAN codebase. By ensuring a randomized selection process, srsRANBench provides a representative and unbiased evaluation, making it a valuable tool for both academia and industry. The dataset is designed to be computationally efficient while still capturing the complexity of real-world 5G O-RAN coding tasks.  
 
-This work is a part of our work for foundational O-RAN LLMs called ORANSight-2.0, the manuscript detailing srsRANBench and ORANSight-2.0 will be available soon. Meanwhile, if you use this benchmark in your research, please cite our previous work:  
+This work is a part of our work for foundational O-RAN LLMs called **ORANSight-2.0**, the manuscript detailing srsRANBench and ORANSight-2.0 will be available soon. Meanwhile, if you use this benchmark in your research, please cite our previous work:  
 
 ```bibtex
 @misc{gajjar2024oranbench13kopensourcebenchmark,
