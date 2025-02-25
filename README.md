@@ -2,7 +2,7 @@
 
 ## Introduction  
 
-**srsRANBench** builds on the framework of ORAN-Bench-13K to introduce a novel benchmark specifically designed for evaluating Large Language Models (LLMs) in the context of code generation and code understanding for the **srsRAN** project. This benchmark consists of **1,502** samples, carefully curated by randomly selecting C++ files from the entire srsRAN codebase.  
+**srsRANBench** builds on the framework of ORAN-Bench-13K to introduce a novel benchmark specifically designed for evaluating Large Language Models (LLMs) in the context of code generation and code understanding for the **srsRAN** project. This benchmark consists of **1,502** samples, carefully curated by randomly selecting C++ files from the entire [srsRAN codebase](https://github.com/srsran/srsRAN_Project).
 
 The benchmark assesses LLMs' ability to generate syntactically and semantically correct code, as well as their comprehension of the srsRAN codebase. By ensuring a randomized selection process, srsRANBench provides a representative and unbiased evaluation, making it a valuable tool for both academia and industry. The dataset is designed to be computationally efficient while still capturing the complexity of real-world 5G O-RAN coding tasks.  
 
