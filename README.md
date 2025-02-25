@@ -1,4 +1,4 @@
-# srsRANBench: A Benchmark for Code Generation and Code Understanding for the srsRAN Project
+# srsRANBench: An Open Source Benchmark for Assessing an LLM's Ability to Code for the srsRAN Project
 
 ## Introduction  
 
