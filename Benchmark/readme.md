@@ -1,16 +1,10 @@
 ## Overview
 
-The `Benchmark` folder contains a set of JSON files designed to evaluate the performance of Large Language Models (LLMs) on Open Radio Access Networks (O-RAN) related tasks. The files are divided into three difficulty levels: Easy, Medium, and Difficult.
-
-## Files Description
-
-- **fin_E.json**: Contains multiple-choice questions categorized as "Easy". These questions focus on basic concepts and known facts about O-RAN.
-- **fin_M.json**: Contains multiple-choice questions categorized as "Intermediate". These questions require comprehension and application of concepts or involve moderate calculations or reasoning.
-- **fin_D.json**: Contains multiple-choice questions categorized as "Difficult". These questions demand a deep understanding of O-RAN standards or the ability to synthesize multiple pieces of information.
+The `Benchmark` folder contains **srsRANBench.json**, a JSON file tailored for assessing the performance of Large Language Models (LLMs) in code understanding and generation within the srsRAN project.
 
 ## File Structure
 
-Each JSON file follows a consistent structure to facilitate ease of use. The JSON files are lists of questions, where each question is represented as a list:
+The JSON contains a list of questions, where each question is represented as a list:
 
 ```json
 [
@@ -27,7 +21,6 @@ Each JSON file follows a consistent structure to facilitate ease of use. The JSO
 - **Options**: An array of strings, each representing a possible answer.
 - **Correct option index**: A string representing the index of the correct answer within the options array.
 
-
 ### Example
 
 Here's a Python example of how to load and use these JSON files:
@@ -36,7 +29,7 @@ Here's a Python example of how to load and use these JSON files:
 import json
 
 # Load Easy questions
-with open('Benchmark/Fin_E.json', 'r') as file:
+with open('Benchmark/srsRANBench.json', 'r') as file:
     easy_questions = json.load(file)
 
 # Display first question
