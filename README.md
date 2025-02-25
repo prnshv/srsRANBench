@@ -22,7 +22,7 @@ This work is a part of our work for foundational O-RAN LLMs called **ORANSight-2
 
 ## Motivation  
 
-The **srsRAN** project is an open-source, widely used **5G O-RAN stack**, leveraged by both academia and industry for research, development, and real-world deployments across the US and Europe. With the increasing reliance on AI-driven coding assistants, **srsRANBench** provides a critical evaluation tool for assessing how well LLMs perform in **5G O-RAN-specific coding tasks**.  
+The **srsRAN** project is an open-source, widely used **5G O-RAN stack**, leveraged by both academia and industry for research, development, and real-world deployments. With the increasing reliance on AI-driven coding assistants, **srsRANBench** provides a critical evaluation tool for assessing how well LLMs perform in **5G O-RAN-specific coding tasks**.  
 
 ## Repository Structure  
 
